@@ -7,7 +7,7 @@ This script will first use the Atlas API to:
 - find all clusters 
 - grab the connection string
 
-Using the connection string:
+Using the connection string and the [PyMongo](https://github.com/mongodb/mongo-python-driver) driver:
 - find all databases
 - find all collections
 - grab indexes from each collection
